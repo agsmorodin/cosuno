@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+        "@constants/*": ["src/constants/*"],
+        "@mocks/*": ["src/mocks/*"],
+        "@repositories/*": ["src/repositories/*"],
+        "@services/*": ["src/services/*"]
+    }
+  }
+}
