@@ -1,0 +1,13 @@
+.main-container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.filters-container {
+    margin: 20px 0;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+}

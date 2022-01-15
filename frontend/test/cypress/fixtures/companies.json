@@ -1,0 +1,30 @@
+[{
+  "id": "34cf7c79-0653-49fc-9d35-93a877846010",
+  "name": "Balfour",
+  "logo": "https://placekitten.com/300/200",
+  "specialities": [
+    "excavation",
+    "plumbing"
+  ],
+  "city": "Berlin"
+},
+  {
+    "id": "9da17c96-b646-4725-a269-27c40b76b7a1 ",
+    "name": "Tarmac",
+    "logo": "https://placekitten.com/300/100",
+    "specialities": [
+      "plumbing",
+      "electrical"
+    ],
+    "city": "Paris"
+  },
+  {
+    "id": "8cb2038a-5203-43ad-8346-8db404f7a0e5",
+    "name": "ISG",
+    "logo": "https://placekitten.com/100/200",
+    "specialities": [
+      "electrical"
+    ],
+    "city": "Amsterdam"
+  }
+]

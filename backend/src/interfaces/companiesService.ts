@@ -1,7 +1,7 @@
 import ICompany from './company';
 
 interface ICompaniesService {
-    getCompanies: () => Promise<ICompany[]>;
+    getCompanies: () => ICompany[];
 }
 
 export default ICompaniesService;

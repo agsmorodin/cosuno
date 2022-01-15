@@ -1,7 +1,7 @@
-enum companyType {
+enum CompanyType {
     EXCAVATION = 'excavation',
     PLUMBING = 'plumbing',
     ELECTRICAL = 'electrical',
 }
 
-export default companyType;
+export default CompanyType;

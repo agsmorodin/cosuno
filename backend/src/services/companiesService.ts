@@ -9,7 +9,7 @@ class CompaniesService implements ICompaniesService {
         this.companiesRepository = companiesRepository;
     }
 
-    async getCompanies(): Promise<ICompany[]> {
+    getCompanies(): ICompany[] {
         return this.companiesRepository.getCompanies();
     }
 }

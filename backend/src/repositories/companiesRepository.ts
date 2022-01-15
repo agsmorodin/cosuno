@@ -2,16 +2,17 @@ import companiesMock from '@mocks/companies.json';
 import ICompany from '../interfaces/company';
 import ICompaniesRepository from '../interfaces/companiesRepository';
 
-class CompaniesRepository implements ICompaniesRepository{
-    companies: any;
+class CompaniesRepository implements ICompaniesRepository {
+    companies: Map<string, ICompany>;
+
     constructor() {
         this.companies = new Map();
-        for(let company of companiesMock) {
+        for (const company of <ICompany[]> companiesMock) {
             this.companies.set(company.id, company);
         }
     }
 
-    async getCompanies(): Promise<ICompany[]> {
+    getCompanies(): ICompany[] {
         return Array.from(this.companies.values());
     }
 }
